@@ -114,7 +114,7 @@ To interact with the console use
 ~$ sudo docker ps
 ~$ sudo docker attach <container ID>
 ```
-###READ THIS FIRST!
+### READ THIS FIRST!
 Using `Ctrl + C` you will `Stop the server`!
 When you want to detach from the container without stopping it use:
 `Ctrl + P` followed by `Ctrl + Q`.
