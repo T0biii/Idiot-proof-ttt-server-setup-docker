@@ -38,7 +38,7 @@ To make it as easy as possible I wrote a script, you can download:
 
 ```
 ~$ wget https://raw.githubusercontent.com/FoseFx/Idiot-proof-ttt-server-setup-docker/master/run.sh
-~$ chmod +x run.s
+~$ chmod +x run.sh
 ```
 
 First get the image's id using
