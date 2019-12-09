@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker build -t fosefx/ttt-server .
+docker build -t t0biii/gmod-test .
