@@ -1,10 +1,11 @@
-FROM debian:7-slim
+FROM debian:10-slim
 
 # ------------
 # Prepare Gmod
 # ------------
 
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y ca-certificates lib32tinfo5 lib32gcc1 lib32stdc++6 lib32z1 lib32z1-dev wget
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y ca-certificates lib32gcc1 lib32stdc++6 lib32z1 lib32z1-dev wget
+RUN wget http://http.us.debian.org/debian/pool/main/n/ncurses/lib32tinfo5_6.0+20161126-1+deb9u2_amd64.deb && dpkg -i lib32tinfo5_6.0+20161126-1+deb9u2_amd64.deb
 RUN update-ca-certificates
 RUN mkdir /steamcmd
 WORKDIR /steamcmd
