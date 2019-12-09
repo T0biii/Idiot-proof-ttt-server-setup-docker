@@ -76,7 +76,7 @@ Here you have to copy the output of [this generator in](https://csite.io/tools/g
 
 
 (`cd ~` after that)
-##Create a unique image
+## Create a unique image
 
 Create a [dockerhub](https://hub.docker.com) account and `sudo docker login` with your credentials.
 
