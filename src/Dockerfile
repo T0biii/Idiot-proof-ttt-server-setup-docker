@@ -1,4 +1,4 @@
-FROM debian:7-slim
+FROM debian:10-slim
 
 # ------------
 # Prepare Gmod
